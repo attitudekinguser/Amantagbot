@@ -13,9 +13,9 @@
 [![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Amantya/Amantagbot&envs=API_HASH,API_ID,TOKEN)
 
 ### 🎯 Credits and Other
-- [I](https://github.com/ImAddyXD) for this Project ;)
+- [Shubhanshu](https://github.com/Amantya) for this Project ;)
 
 ### 😇Neee Help
 Join
-- [Channel](https://t.me/RhythmOfficial)
-- [Group](https://t.me/RhythmOff)
+- [Channel](https://t.me/english_hindi_chatting_group_ind)
+- [Group](https://t.me/english_hindi_chatting_group_ind)
