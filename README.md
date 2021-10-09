@@ -1,5 +1,5 @@
 # SHUBHANSHU
-# Simple Mention Bot
+
 
 ### 🏷 Information
 - Language: Python.
