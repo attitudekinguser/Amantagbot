@@ -120,5 +120,5 @@ async def mentionall(event):
 
 
 print("~~~~Started~~~~~")
-print("¯\_(ツ)_/¯ Need Help Join @RhythmOff")
+print("¯\_(ツ)_/¯ Need Help Dm @@Shubhanshutya")
 client.run_until_disconnected()
