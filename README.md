@@ -7,10 +7,10 @@
 - Fully Open Source 
 
 ### 🚀 Deploy
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ImAddyXD/SimpleMentionBot)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Amantya/Amantagbot)
 
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/ImAddyXD/SimpleMentionBot&envs=API_HASH,API_ID,TOKEN)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Amantya/Amantagbot&envs=API_HASH,API_ID,TOKEN)
 
 ### 🎯 Credits and Other
 - [I](https://github.com/ImAddyXD) for this Project ;)
