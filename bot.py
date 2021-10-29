@@ -31,11 +31,12 @@ async def cancel(event):
 #start
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("Hey[🤗](https://te.legra.ph/file/8d6307fcac08120cb9380.jpg), Welcome I m Tag Member Bot\n🔥I can tag 15,000 (15k) members in group and 300 Members in Channel.\n💡Need Help /help",
+  await event.reply("Hey [🤗](https://te.legra.ph/file/8d6307fcac08120cb9380.jpg), Welcome I m Tag Member Bot\n🔥I can tag 15,000 (15k) members in group and 300 Members in Channel.\n💡Need Help /help",
                     buttons=(
                       [Button.url('🔥ᴀᴅᴅ ᴛᴀɢ ᴍᴇᴍʙᴇʀ ᴛᴏ ɢʀᴏᴜᴩ🔥', 'http://t.me/Tag_member_bot?startgroup=true')],
                       [Button.url('⚜ᴏᴡɴᴇʀ⚜', 'Https://t.me/alone_shaurya_king')],
-                      [Button.url('🛎ꜱᴜᴩᴩᴏʀᴛ', 'https://t.me/sweetkingdom1')]
+                      [Button.url('🛎ꜱᴜᴩᴩᴏʀᴛ', 'https://t.me/sweetkingdom1'),
+                      Button.url('ᴜᴩᴅᴀᴛᴇ🔊', 'https://t.me/@attitude_galaxy')]
                      ),
                     link_preview=False
                    )
@@ -43,7 +44,7 @@ async def start(event):
 #help
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**🔥ᴛᴀɢ ᴍᴇᴍʙᴇʀ ʙᴏᴛ'ꜱ ʜᴇʟᴩ ᴍᴇɴᴜ👑**\n\nCommand: /tag \n You can use this command with text you want to tell others. \n`Example: /tag Good morning!` \nYou can use this command as an answer. any message Bot will tag users to replied message"
+  helptext = "**[🔥](https://te.legra.ph/file/8d6307fcac08120cb9380.jpg), ᴛᴀɢ ᴍᴇᴍʙᴇʀ ʙᴏᴛ'ꜱ ʜᴇʟᴩ ᴍᴇɴᴜ👑**\n\nCommand: /tag \n You can use this command with text you want to tell others. \n`Example: /tag Good morning!` \nYou can use this command as an answer. any message Bot will tag users to replied message"
   await event.reply(helptext,
                     buttons=(
                       [Button.url('⚜ᴏᴡɴᴇʀ⚜', 'https://t.me/alone_shaurya_king'),
