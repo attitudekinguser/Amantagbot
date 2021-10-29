@@ -37,10 +37,7 @@ async def start(event):
         InlineKeyboardButton(
             text="🔥ᴀᴅᴅ ᴛᴀɢ ᴍᴇᴍʙᴇʀ ᴛᴏ ɢʀᴏᴜᴩ🔥", url="t.me/Tag_member_bot?startgroup=true"),
     ],
-    [
-        InlineKeyboardButton(
-             text="🛎ꜱᴜᴩᴩᴏʀᴛ", https://t.me/sweetkingdom1"
-         ),
+     [
         InlineKeyboardButton(
             text="ᴜᴩᴅᴀᴛᴇ🔊", https://t.me/attitude_galaxy"
         ),
