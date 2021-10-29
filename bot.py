@@ -93,7 +93,7 @@ async def mentionall(event):
       if event.chat_id not in moment_worker:
         await event.respond("Stopped!")
         return
-      if usrnum == 5:
+      if usrnum == 10:
         await client.send_message(event.chat_id, f"{usrtxt}\n\n{msg}")
         await asyncio.sleep(2)
         usrnum = 0
@@ -111,7 +111,7 @@ async def mentionall(event):
       if event.chat_id not in moment_worker:
         await event.reply("Stopped")
         return
-      if usrnum == 5:
+      if usrnum == 10:
         await client.send_message(event.chat_id, usrtxt, reply_to=msg)
         await asyncio.sleep(2)
         usrnum = 0
