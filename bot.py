@@ -33,19 +33,10 @@ async def cancel(event):
 async def start(event):
   await event.reply("Hey[🤗](https://te.legra.ph/file/8d6307fcac08120cb9380.jpg), Welcome I m Tag Member Bot\n🔥I can tag 15,000 (15k) members in group and 300 Members in Channel.\n💡Need Help /help",
                     buttons=(
-                      [
-        InlineKeyboardButton(
-            text="🔥ᴀᴅᴅ ᴛᴀɢ ᴍᴇᴍʙᴇʀ ᴛᴏ ɢʀᴏᴜᴩ🔥", url="t.me/Tag_member_bot?startgroup=true"),
-    ],
-     [
-        InlineKeyboardButton(
-            text="ᴜᴩᴅᴀᴛᴇ🔊", https://t.me/attitude_galaxy"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="⚜ᴏᴡɴᴇʀ⚜", Https://t.me/alone_shaurya_king"),
-    ]
-                    ),
+                      [Button.url('🔥ᴀᴅᴅ ᴛᴀɢ ᴍᴇᴍʙᴇʀ ᴛᴏ ɢʀᴏᴜᴩ🔥', 'http://t.me/Tag_member_bot?startgroup=true')],
+                      [Button.url('⚜ᴏᴡɴᴇʀ⚜', 'Https://t.me/alone_shaurya_king')],
+                      [Button.url('🛎ꜱᴜᴩᴩᴏʀᴛ', 'https://t.me/sweetkingdom1')]
+                     ),
                     link_preview=False
                    )
 
