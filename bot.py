@@ -36,7 +36,7 @@ async def start(event):
                       [Button.url('🔥ᴀᴅᴅ ᴛᴀɢ ᴍᴇᴍʙᴇʀ ᴛᴏ ɢʀᴏᴜᴩ🔥', 'http://t.me/Tag_member_bot?startgroup=true')],
                       [Button.url('⚜ᴏᴡɴᴇʀ⚜', 'Https://t.me/alone_shaurya_king')],
                       [Button.url('🛎ꜱᴜᴩᴩᴏʀᴛ', 'https://t.me/sweetkingdom1'),
-                      Button.url('ᴜᴩᴅᴀᴛᴇ🔊', 'https://t.me/@attitude_galaxy')]
+                      Button.url('ᴜᴩᴅᴀᴛᴇ🔊', 'https://t.me/attitude_galaxy')]
                      ),
                     link_preview=False
                    )
