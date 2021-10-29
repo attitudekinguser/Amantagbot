@@ -1,4 +1,4 @@
-#Copyright @Shubhanshutya
+#Copyright @alone_shaurya_king
 #sys
 import os, logging, asyncio
 
@@ -31,11 +31,21 @@ async def cancel(event):
 #start
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("^_^ Hey, Welcome To Simple Mention Bot\nIt can tag 15,000 Members in Group and 300 Members In Channel.\nNeed Help /help ",
+  await event.reply("Hey[🤗](https://te.legra.ph/file/8d6307fcac08120cb9380.jpg), Welcome I m Tag Member Bot\n🔥I can tag 15,000 (15k) members in group and 300 Members in Channel.\n💡Need Help /help",
                     buttons=(
-                      [Button.url('🙃 Add To Group', 'http://t.me/TaG_X_Bot?startgroup=true'),
-                      Button.url('Owner👑', 'https://t.me/Shubhanshutya'),
-                      Button.url('Updates', 'https://t.me/english_hindi_chatting_group_ind')]
+                      [
+        InlineKeyboardButton(
+            text="🔥ᴀᴅᴅ ᴛᴀɢ ᴍᴇᴍʙᴇʀ ᴛᴏ ɢʀᴏᴜᴩ🔥", url="t.me/Tag_member_bot?startgroup=true"),
+    ],
+    [
+        InlineKeyboardButton(text="🛎ꜱᴜᴩᴩᴏʀᴛ", https://t.me/sweetkingdom1"),
+        InlineKeyboardButton(
+            text="ᴜᴩᴅᴀᴛᴇ🔊", https://t.me/attitude_galaxy"
+        ),
+    ],
+    [
+        InlineKeyboardButton(text="⚜ᴏᴡɴᴇʀ⚜", Https://t.me/alone_shaurya_king"),
+    ]
                     ),
                     link_preview=False
                    )
@@ -43,12 +53,11 @@ async def start(event):
 #help
 @client.on(events.NewMessage(pattern="^/help$"))
 async def help(event):
-  helptext = "**Simple Mention Bot's Help Menu**\n\nCommand: /tag \n You can use this command with text you want to tell others. \n`Example: /tag Good morning!` \nYou can use this command as an answer. any message Bot will tag users to replied message"
+  helptext = "**🔥ᴛᴀɢ ᴍᴇᴍʙᴇʀ ʙᴏᴛ'ꜱ ʜᴇʟᴩ ᴍᴇɴᴜ👑**\n\nCommand: /tag \n You can use this command with text you want to tell others. \n`Example: /tag Good morning!` \nYou can use this command as an answer. any message Bot will tag users to replied message"
   await event.reply(helptext,
                     buttons=(
-                      [Button.url('🙃 Add To Group', 'http://t.me/TaG_X_Bot?startgroup=true'),
-                       Button.url('Owner👑', 'https://t.me/Shubhanshutya'),
-                      Button.url('Updates', 'https://t.me/english_hindi_chatting_group_ind')]
+                      [Button.url('⚜ᴏᴡɴᴇʀ⚜', 'https://t.me/alone_shaurya_king'),
+                      Button.url('🛎ꜱᴜᴩᴩᴏʀᴛ', 'https://t.me/sweetkingdom1')]
                     ),
                     link_preview=False
                    )
@@ -120,5 +129,5 @@ async def mentionall(event):
 
 
 print("~~~~Started~~~~~")
-print("¯\_(ツ)_/¯ Need Help Dm @@Shubhanshutya")
+print("🔥🥂Need Help Dm @alone_shaurya_king")
 client.run_until_disconnected()
