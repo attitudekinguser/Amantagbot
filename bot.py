@@ -31,7 +31,7 @@ async def cancel(event):
 #start
 @client.on(events.NewMessage(pattern="^/start$"))
 async def start(event):
-  await event.reply("Hey [🤗](https://te.legra.ph/file/8d6307fcac08120cb9380.jpg), Welcome I m Tag Member Bot\n🔥I can tag 15,000 (15k) members in group and 300 Members in Channel.\n💡Need Help /help",
+  await event.reply("Hey [🤗](https://te.legra.ph/file/8d6307fcac08120cb9380.jpg), Welcome,😎 I m Highly advanced Tag Member Bot\n🔥I can tag  members in group as well as in Channel.\n💡Need Help /help\n\n🔥🥂ᴩᴏᴡᴇʀᴇᴅ ʙy: @attitude_galaxy",
                     buttons=(
                       [Button.url('🔥ᴀᴅᴅ ᴛᴀɢ ᴍᴇᴍʙᴇʀ ᴛᴏ ɢʀᴏᴜᴩ🔥', 'http://t.me/Tag_member_bot?startgroup=true')],
                       [Button.url('⚜ᴏᴡɴᴇʀ⚜', 'Https://t.me/alone_shaurya_king')],
